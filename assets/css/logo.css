@@ -1,0 +1,26 @@
+#header .logo {
+    max-width: 300px;
+    max-height:  100px;
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+#header #amegamenu.fixed-menu .logo {
+    max-width: 200px;
+    max-height: 50px;
+}
+#footer #_desktop_logo img,
+#header #_mobile_logo svg,
+#header #_desktop_logo svg,
+#footer #_desktop_logo svg {
+    max-width: 100%;
+}
+@media (max-width: 991px) {
+    #header .logo {
+        width: auto
+    }
+    #header .header-nav.tablet-h .top-logo a img {
+        max-height: 50px;
+        max-width: 100%;
+    }
+}

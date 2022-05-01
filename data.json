@@ -1,0 +1,180 @@
+{
+  "product": [
+    {
+      "id": "id-1",
+      "name": "product 1",
+      "descripsion": "description",
+      "colors": [
+        {
+          "id": "id-1",
+          "name": "Yellow",
+          "value": "yellow"
+        },
+        {
+          "id": "id-2",
+          "name": "White",
+          "value": "white"
+        },
+        {
+          "id": "id-3",
+          "name": "Black",
+          "value": "black"
+        }
+      ],
+      "sizes": [
+        {
+          "id": "id-1",
+          "text": "S",
+          "value": "s"
+        },
+        {
+          "id": "id-2",
+          "text": "M",
+          "value": "m"
+        }
+      ],
+      "images": [
+        "image-src-1",
+        "image-src-2",
+        "image-src-3",
+        "image-src-4",
+        "image-src-5"
+      ],
+      "reviews": [
+        {
+          "id": "id-1",
+          "user": {
+            "id": "id-1",
+            "firstname": "firstname-1",
+            "lastname": "lastname-1",
+            "avatar": "avatar-src-1"
+          },
+          "content": "content-1"
+        },
+        {
+          "id": "id-2",
+          "user": {
+            "id": "id-2",
+            "firstname": "firstname-2",
+            "lastname": "lastname-2",
+            "avatar": "avatar-src-2"
+          },
+          "content": "content-2"
+        }
+      ],
+      "ratings": 4.5,
+      "category": [
+        {
+          "id": "id-1",
+          "categoryName": "categoryName-1"
+        },
+        {
+          "id": "id-2",
+          "categoryName": "categoryName-2"
+        }
+      ],
+      "user": {
+        "id": "id-1",
+        "firstname": "firstname-1",
+        "lastname": "lastname-1",
+        "avatar": "avatar-src-1"
+      },
+      "price": 85,
+      "unit": "$",
+      "price_range": {
+        "text": "US$80 to US$100",
+        "price_gte": 80,
+        "price_lte": 100,
+        "unit": "$"
+      }
+    },
+    {
+      "id": "id-2",
+      "name": "product 2",
+      "descripsion": "description",
+      "colors": [
+        {
+          "id": "id-1",
+          "name": "Yellow",
+          "value": "yellow"
+        },
+        {
+          "id": "id-2",
+          "name": "White",
+          "value": "white"
+        },
+        {
+          "id": "id-3",
+          "name": "Black",
+          "value": "black"
+        }
+      ],
+      "sizes": [
+        {
+          "id": "id-1",
+          "text": "S",
+          "value": "s"
+        },
+        {
+          "id": "id-2",
+          "text": "M",
+          "value": "m"
+        }
+      ],
+      "images": [
+        "image-src-1",
+        "image-src-2",
+        "image-src-3",
+        "image-src-4",
+        "image-src-5"
+      ],
+      "reviews": [
+        {
+          "id": "id-1",
+          "user": {
+            "id": "id-1",
+            "firstname": "firstname-1",
+            "lastname": "lastname-1",
+            "avatar": "avatar-src-1"
+          },
+          "content": "content-1"
+        },
+        {
+          "id": "id-2",
+          "user": {
+            "id": "id-2",
+            "firstname": "firstname-2",
+            "lastname": "lastname-2",
+            "avatar": "avatar-src-2"
+          },
+          "content": "content-2"
+        }
+      ],
+      "ratings": 4.5,
+      "category": [
+        {
+          "id": "id-1",
+          "categoryName": "categoryName-1"
+        },
+        {
+          "id": "id-2",
+          "categoryName": "categoryName-2"
+        }
+      ],
+      "user": {
+        "id": "id-1",
+        "firstname": "firstname-1",
+        "lastname": "lastname-1",
+        "avatar": "avatar-src-1"
+      },
+      "price": 85,
+      "unit": "$",
+      "price_range": {
+        "text": "US$80 to US$100",
+        "price_gte": 80,
+        "price_lte": 100,
+        "unit": "$"
+      }
+    }
+  ]
+}

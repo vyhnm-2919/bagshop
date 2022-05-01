@@ -1,0 +1,202 @@
+.anthemeblocks-producttabs{
+    margin-top: 68px;
+    margin-bottom: 40px;
+}
+.anthemeblocks-producttabs-header {
+    text-align: center;
+}
+.anthemeblocks-producttabs h2{
+	text-align: center;
+    margin-bottom: 29px;
+}
+.block-separator {
+    background: #cfcfcf;
+    height: 1px;
+    width: 105px;
+    margin: 0 auto;
+}
+.anthemeblocks-producttabs-header p {
+    max-width: 740px;
+    margin: 32px auto 30px;
+}
+.anthemeblocks-producttabs .tabs-img{
+	max-width: 220px;
+    max-height: 20px;
+    margin: 0 auto 17px;
+}
+.anthemeblocks-producttabs .tabs-img img{
+	max-width: 100%;
+}
+.anthemeblocks-producttabs .nav-tabs{
+	text-align: center;
+	border-bottom: none;
+	margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anthemeblocks-producttabs .nav-item {
+    float: none;
+    display: inline-block;
+}
+.anthemeblocks-producttabs .nav-item a {
+    padding: 10px 15px 11px!important;
+    margin: 5px 9px!important;
+    background: #eeeeee;
+    min-width: 135px;
+}
+.tabs-decoration {
+    margin: 0 8px;
+}
+.anthemeblocks-producttabs .nav-item:last-child {
+    border: 0!important;
+}
+.anthemeblocks-producttabs .nav-link {
+    position: relative;
+	padding: 0;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+.anthemeblocks-producttabs .nav-item .nav-link {
+    line-height: 1.2;
+    text-transform: none;
+    margin-bottom: 0;
+}
+
+.anthemeblocks-producttabs .nav-item .nav-link:hover,
+.anthemeblocks-producttabs .nav-item .nav-link:active {
+    color: #000;
+}
+.anthemeblocks-producttabs .nav-tabs .nav-link.active,
+.anthemeblocks-producttabs .nav-tabs .nav-link.active:focus,
+.anthemeblocks-producttabs .nav-tabs .nav-link.active:hover {
+    color: #fff;
+    background: #000;
+}
+.anthemeblocks-producttabs .nav-item .nav-link.active {
+    position: relative;
+}
+.anthemeblocks-producttabs .nav-item .nav-link.active:before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    opacity: 1;
+    position: absolute;
+    bottom: -5px;
+    left: calc(50% - 5px);
+    transform: rotate(45deg);
+}
+.anthemeblocks-producttabs .nav-item:last-child .nav-link{
+	border: none;
+}
+#index .tab-pane.active .product-miniature {
+    -webkit-backface-visibility: visible!important;
+    backface-visibility: visible!important;
+    position: relative;
+    animation-name: bes2;
+    transform-origin: 0px 0px;
+}
+
+#index .tab-pane .product-miniature {
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+/*
+
+@keyframes bes2 {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+
+*/
+#index .tab-pane.active .product-miniature:before {
+    z-index: 5;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    content: "";
+    animation-name: bes;
+    transform-origin: 100% 0px;
+    animation-duration: .5s;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+}
+@keyframes bes2 {
+    from {
+        opacity: 0;
+        transform: scale(.8);
+    }
+    to {
+        opacity: 1;
+        transform: scaleX(1);
+    }
+}
+@keyframes bes {
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(0);
+    }
+}
+.anthemeblocks-producttabs .featured-products-box {
+    margin-top: 0;
+}
+.tab-pane.fade {
+    opacity: 1;
+}
+
+.anthemeblocks-producttabs-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 95px;
+}
+.anthemeblocks-producttabs-footer .btn-primary {
+    min-width: 200px;
+}
+@media (max-width: 991px) {
+    .anthemeblocks-producttabs .nav-tabs {
+        flex-wrap: wrap;
+        padding: 0 70px;
+        position: relative;
+    }
+    .tabs-decoration {
+        position: absolute;
+        top: calc(50% - 10px);
+    }
+    .tabs-decoration.tabs-decoration-left {
+        left: 10px;
+    }
+    .tabs-decoration.tabs-decoration-right {
+        right: 10px;
+    }
+}
+@media (max-width: 640px){
+	.anthemeblocks-producttabs .nav-link{
+		border: none;
+	}
+	.anthemeblocks-producttabs .nav-item{
+        margin-bottom: 10px!important;
+        border: 0;
+	}
+}
+@media (max-width: 400px) {
+    .anthemeblocks-producttabs .nav-tabs {
+        padding: 0;
+    }
+    .tabs-decoration {
+        display: none;
+    }
+}

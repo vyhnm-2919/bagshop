@@ -1,0 +1,25 @@
+<template>
+  <div class="page-navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul>
+            <li class="current-page"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li>
+              <a href="#"><i class="fa fa-angle-right"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import { Vue, Component } from 'nuxt-property-decorator'
+@Component
+export default class PageNavigation extends Vue {}
+</script>
+
